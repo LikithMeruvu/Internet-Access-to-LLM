@@ -28,6 +28,8 @@ This repository provides a framework to integrate internet search capabilities w
 
 ## Usage
 
+Go to Main.py and Update the genai.config with your gemini api key !!
+
 To run the program, execute the following command:
 ```sh
 python main.py
