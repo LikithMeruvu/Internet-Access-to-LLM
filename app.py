@@ -19,7 +19,7 @@ classifier = get_classifier()
 
 USE_INTERNET = True
 
-genai.configure(api_key="AIzaSyADB7iNeNiMITsGckS8UYLw-u6t03qr9Qk")
+genai.configure(api_key="GEMINI_API_KEY")
 model = genai.GenerativeModel('gemini-1.5-flash-latest')
 
 SYSTEM_PROMPT = "Your name is Kambala AI. Your task is to Respond to the Queries you get."
